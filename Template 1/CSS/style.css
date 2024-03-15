@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+body{
+    height: 2000px;
+  
+   
+}
+header{
+    height:50vh;
+ 
+    background-color: azure;
+   
+    background-size: 100% 100% ;
+    
+
+   
+   
+}
+header .container{
+    
+    margin-left: 1.5em;
+    padding-top: 1%;
+  
+  
+}
+header h1{
+    font-variant: small-caps;
+    color: aquamarine;
+    display: inline-block;
+    width: 30%;
+   
+}
+header nav{
+    display: inline-block;
+    width: 65%;
+  
+}
+header nav ul{
+    margin-top:1% ;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: .5em;
+
+}
+/* عناصر التجول في الصفحات */
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 144, 67);
+    font-size: 2em;
+   
+    
+   
+ 
+    
+}
+header nav input{
+    float: right;
+    height: 30px;
+    width: 35%;
+}
+/* start contact section*/
+
+   #contact{
+    background-color: #eee;
+
+}
+#contact .container{
+    display: flex;
+}
+/* artical and button */
+#contact .container article{
+    flex-basis: 70%;
+    color: blueviolet;
+    font-size: 1.5em;
+    margin: 2%;
+}
+#contact .container button{
+    flex-basis: 25%;
+    background-color: cadetblue;
+    color: bisque;
+    font-size: 1.5;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+/*end contact us  section*/
+
+/* start servises */
+#services .container{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 2em;
+    
+  
+}
+#services .container .single-service{
+    flex-basis: 33%;
+  display: flex;
+
+}
+#services .container .single-service img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(56, 39, 39);
+    margin: 30px;
+  
+}
+#services .container .single-service img p{
+    flex-basis: 250px;
+ 
+}
+#services .container .single-service div{
+    padding-top: 70px;
+}
+/* end serivses */
+
+/* start faclies*/
+#facilies{
+    padding: 2em;
+}
+#facilies .container .line{
+    border: 3px solid black;
+    width: 44%;
+    height: 0%;
+    
+}
+.facilies-title{
+    display: flex;
+    align-items: center;
+}
+.container h2{
+    padding:10px;
+}
+/* end facilies--> */
+
+/* start footer */
+footer{
+    padding: 1% 5%;
+    background-color: #eee;
+    display: flex;
+    margin-top: 45%;
+  
+  
+    
+   
+}
+#contact-us{
+    font-size: 20px;
+    
+    flex-basis: 25%;
+ 
+}
+#contact-us h3{
+    color: rgb(209, 118, 14);
+    font-size: 40px;
+}
+
+#q-links{
+    font-size: 20px;
+    flex-basis: 25%;
+}
+#q-links h4{
+    font-size: 40px;
+    color: rgb(209, 118, 14);
+}
+
+#q-links hr{
+    margin: 0.5em;
+   width: 70%;
+   border: 1px solid;
+
+}
+#blog{
+    font-size: 20px;
+    flex-basis: 25%;
+    padding-right: 5%;
+}
+#blog h3{
+    color: rgb(209, 118, 14);
+    font-size: 40px;
+}
+#blog p{
+    font-size: 20px;
+  
+}
+
+
+#blog a{
+    float: right;
+    padding: 6%  5%;
+}
+#contact-form{
+    font-size: 20px;
+    flex-basis: 25%;
+}
+#contact-form h3{
+    color: rgb(209, 118, 14);
+    font-size: 35px;
+
+
+ 
+    
+  
+
+}
+#contact-form input{
+    width: 70%;
+    height: 30px;
+    margin: 2%;
+   
+   border-radius: 2em;
+   border: 1px solid;
+ 
+   
+   
+}
+#contact-form input[type="submit"]{
+    background-color: bisque;
+    width: 32%;
+    border-radius: 1em;
+}
+/* end footer */
+
+#single-service hr{ 
+    border: red  3px solid ;
+}
+
+   
+#menu{
+   
+        position: relative;
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+        user-select: none;
+        display: none;
+      
+       
+    
+    
+    }
+    #menu span{
+        display: block;
+        width: 33px;
+        height: 4px;
+        background-color: var(--lightColor);
+        border-radius: 6px;
+        transform-origin: 0 0;
+        transition: 0.0s;
+        margin-bottom:5px ;
+    }
+
+@media screen and (max-width: 570px){
+    #menu{
+        display: block;
+    }
+}
+
+
+
